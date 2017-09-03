@@ -1,1 +1,1 @@
-web: gunicorn app:app --log-file=- --access-logfile=-
+web: gunicorn app:app -t 60 --log-file=- --access-logfile=-
