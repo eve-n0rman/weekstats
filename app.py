@@ -8,7 +8,7 @@ import requests
 @get('/')
 @view('index')
 def index():
-    url = 'https://zkillboard.com/api/kills/allianceID/99003214/pastSeconds/604800/page/'
+    url = 'https://zkillboard.com/api/allianceID/99003214/pastSeconds/604800/page/'
     page = 1
     more_kills = True
     characters = {}
